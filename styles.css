@@ -31,3 +31,29 @@ img[Attributes Style] {
 center {
 	display: block;
 }
+
+/* Used to display the search box */
+.sbib_b {
+	padding-left: 16px;
+	height: 100%;
+    overflow: hidden;
+    padding: 5px 9px 0;
+}
+
+.gsfi {
+	font: 16px;
+	line-height: 34px;
+	height: 34px !important;
+}
+
+#lst {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	z-index: 6;
+	left: 0px;
+	outline: none;
+}
