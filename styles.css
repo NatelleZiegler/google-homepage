@@ -1,0 +1,33 @@
+/* Used to style the links in upper left side*/
+#hptl {
+	position: absolute;
+	margin: 7px 0 0 10px;
+}
+
+#hptl a {
+	display: inline-block;
+	padding-left: 15px;
+	color: #000;
+	opacity: 0.75;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#hptl a:hover {
+	text-decoration: underline;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+/* Used to style the Google logo */
+
+img[Attributes Style] {
+    height: 92px;
+    width: 272px;
+}
+
+center {
+	display: block;
+}
