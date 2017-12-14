@@ -1,3 +1,9 @@
+body {
+	font-family: arial, sans-serif;
+  font-size: small;
+  color: #222;
+}
+
 /* Used to style the links in upper left side*/
 #hptl {
 	position: absolute;
@@ -26,13 +32,19 @@ body, td, a, p, .h {
 img[Attributes Style] {
     height: 92px;
     width: 272px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 center {
 	display: block;
 }
 
-/* Used to display the search box */
+/* Used to display the search box *//*
 .sbib_b {
 	padding-left: 16px;
 	height: 100%;
@@ -56,6 +68,28 @@ center {
 	z-index: 6;
 	left: 0px;
 	outline: none;
-}
+} */
 
 /* Used to display the buttons */
+.jsb input[type="submit"], .gbqfba {
+    height: 36px;
+    line-height: 27px;
+}
+
+.jsb input[type="submit"] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    /*margin: 11px 4px;*/
+	margin: 0 auto;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+	font-size: 13px;
+	justify-content: center;
+}
