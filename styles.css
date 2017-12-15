@@ -101,3 +101,42 @@ input[type=text] {
 	font-size: 13px;
 	justify-content: center;
 }
+
+/* Used to display the footer bar */
+.footBar {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.leftFoot li {
+	padding-left: 18px;
+}
+
+.rightFoot li {
+	padding-right: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+   text-decoration: none;
+    color: #36454F;
+ }
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	display: flex;
+}
